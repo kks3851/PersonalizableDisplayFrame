@@ -1,0 +1,253 @@
+* {
+    font-family: arial, helvetica;
+}
+
+/* Error Classes */
+.errorClass {
+    background-color: #CC6666;
+}
+
+#errorDiv {
+    color: red;
+}
+
+.errorFeedback {
+    visibility: hidden;
+}
+
+.phoneTypeError {
+    margin-left: 1.2em;
+    padding: 0.1em;
+    background-color: #CC6666;
+}
+
+/* Horizontal menus */
+header ul, footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #342F2E;
+    position: fixed;
+}
+
+header ul {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer ul {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header li {
+    float: left;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+footer li {
+    float: right;
+}
+
+header li a, footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover, footer li a:hover {
+    background-color: #401F68;
+}
+
+/* Vertical Menus */
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #401F68;
+    position: fixed;
+    border: 1px solid #555;
+    left: 0;
+    width: 25%;
+    overflow: hidden;
+    top: 46px;
+    height: 100%;
+} 
+
+aside li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    color: white;
+    border-top: 1px solid #555;
+}
+
+aside li form input {
+    background-color: #401F68;
+    color: #000;
+    padding: 1em;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+    display: block;
+    color: white;
+}
+
+aside li a {
+    display: block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+aside li a:hover, aside li form input:hover {
+    background-color: #4E2A84;
+    color: white;
+}
+
+.active {
+    background-color: #4E2A84;
+}
+
+/* Forms */
+form label {
+    width: 8em;
+    margin-right: 1em;
+    float: left;
+    text-align: left;
+    display: block;
+} 
+
+form input {
+    width: 100%;
+} 
+
+form input[type=button], input[type=submit], input[type=reset] {
+    background-color: #401F68;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+form input[type=radio] {
+    display: none;
+    float: left;
+} 
+
+form input[type=radio] + label{
+    display: inline-block;
+    background-color: #B6ACD1;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+form input[type=radio]:checked + label{
+    background-color: #4E2A84;
+    color: white;
+}
+
+form input:focus {
+    border: 3px solid #B6ACD1;
+}
+
+form input[type=checkbox] {
+    display: none;
+    float: left;
+}
+
+form input[type=checkbox] + label {
+    display: block;
+    background-color: #B6ACD1;
+    cursor: pointer;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+form input[type=checkbox]:checked + label {
+    background-color: #4E2A84;
+    color: white;
+}
+
+/* Content */
+.content, .content-small{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+}
+
+.content-small {
+    margin-left: 25%;
+    width: 75%;
+}
+
+body {
+    background-color: #E4E0EE;
+    padding: 0;
+    margin: 0;
+}
+
+.content header, .content-small header {
+    background-color: #836EAA;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.content p, .content-small p {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+table {
+    width: 98%;
+    margin-left: 1%;
+}
+
+th {
+    text-align: center;
+    background-color: #401F68;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
